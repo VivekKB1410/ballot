@@ -6,6 +6,7 @@ Voting application contains various frontend and backend microservices. These mi
 
 ### Voter
 
+edit1
 An frontend application written in node to allow participants to vote.
 
 Depends on: ballot and ecserver services
