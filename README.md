@@ -9,13 +9,12 @@ Voting application contains various frontend and backend microservices. These mi
 An frontend application written in node to allow participants to vote.
 
 Depends on: ballot and ecserver services
-
+tests
 ### Ballot
-
+1234
 An backend app for voter written in Golang, to store the votes.
 
 ### Election Commission
-sdsdkl
 
 An frontend to manage the election candidates and uses ecserver as backend to store candidates lists.
 
