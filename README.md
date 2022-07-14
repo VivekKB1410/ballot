@@ -5,13 +5,12 @@
 Voting application contains various frontend and backend microservices. These microservices are deployed and are available over ingress in Roost Cluster.
 
 ### Voter
-testing123
 An frontend application written in node to allow participants to vote.
 
 Depends on: ballot and ecserver services
-
+tests
 ### Ballot
-
+1234
 An backend app for voter written in Golang, to store the votes.
 
 ### Election Commission
