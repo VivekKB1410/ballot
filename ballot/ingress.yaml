@@ -2,11 +2,11 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ballot
-  namespace: default
+  namespace: vivekklpkb-ballot-pr-open-39
 spec:
   ingressClassName: nginx 
   rules:
-  - host: "ballot.10.10.0.10.nip.io"
+  - host: "vivekklpkb-ballot-pr-open-39.ballot.3.6.93.68.nip.io"
     http:
       paths:
       - path: /
