@@ -1,0 +1,26 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: vivek
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io/foreground
+spec:
+  project: default
+  source:
+    path: helm-vote
+    repoURL: https://github.com/VivekKB1410/ballot.git
+    targetRevision: main
+  destination:
+    name: w2o3o5zu3-kubernetes-admin-kubernetes
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
+    syncOptions:
+      - PrunePropagationPolicy=foreground
+      - Replace=true
+      - PruneLast=false
+      - Validate=true
+      - CreateNamespace=false
+      - ApplyOutOfSyncOnly=false
