@@ -9,6 +9,7 @@ An frontend application written in node to allow participants to vote.
 
 Depends on: ballot and ecserver services
 tests
+testing
 ### Ballot
 1234
 An backend app for voter written in Golang, to store the votes.
