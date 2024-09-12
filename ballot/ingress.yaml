@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ballot
-  namespace: default
+  namespace: vivekklpkb-on-demand-kbvivek-933
 spec:
   ingressClassName: nginx 
   rules:
