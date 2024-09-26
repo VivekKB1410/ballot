@@ -7,7 +7,9 @@ Voting application contains various frontend and backend microservices. These mi
 ### Voter
 An frontend application written in node to allow participants to vote.
 
-Depends on: ballot and ecserver services
+Depends on: ballot and ecse
+Test 123
+rver services
 tests
 ### Ballot
 1234
